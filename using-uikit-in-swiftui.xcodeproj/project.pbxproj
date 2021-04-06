@@ -13,6 +13,8 @@
 		9A10FCB0261C22E30092D437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A10FCAF261C22E30092D437 /* Preview Assets.xcassets */; };
 		9A10FCBB261C22E40092D437 /* using_uikit_in_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10FCBA261C22E40092D437 /* using_uikit_in_swiftuiTests.swift */; };
 		9A10FCC6261C22E40092D437 /* using_uikit_in_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10FCC5261C22E40092D437 /* using_uikit_in_swiftuiUITests.swift */; };
+		9A10FEA6261CADBC0092D437 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10FEA5261CADBC0092D437 /* ImagePicker.swift */; };
+		9A10FEAE261CAE380092D437 /* ImagePickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10FEAD261CAE380092D437 /* ImagePickerDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		9A10FCC1261C22E40092D437 /* using-uikit-in-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "using-uikit-in-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A10FCC5261C22E40092D437 /* using_uikit_in_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = using_uikit_in_swiftuiUITests.swift; sourceTree = "<group>"; };
 		9A10FCC7261C22E40092D437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A10FEA5261CADBC0092D437 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		9A10FEAD261CAE380092D437 /* ImagePickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				9A10FCA8261C22E10092D437 /* using_uikit_in_swiftuiApp.swift */,
 				9A10FCAA261C22E10092D437 /* ContentView.swift */,
+				9A10FEAD261CAE380092D437 /* ImagePickerDemo.swift */,
+				9A10FEB2261CB2DA0092D437 /* WrappingUIKit */,
 				9A10FCAC261C22E30092D437 /* Assets.xcassets */,
 				9A10FCB1261C22E30092D437 /* Info.plist */,
 				9A10FCAE261C22E30092D437 /* Preview Content */,
@@ -128,6 +134,14 @@
 				9A10FCC7261C22E40092D437 /* Info.plist */,
 			);
 			path = "using-uikit-in-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+		9A10FEB2261CB2DA0092D437 /* WrappingUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9A10FEA5261CADBC0092D437 /* ImagePicker.swift */,
+			);
+			path = WrappingUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A10FEA6261CADBC0092D437 /* ImagePicker.swift in Sources */,
 				9A10FCAB261C22E10092D437 /* ContentView.swift in Sources */,
+				9A10FEAE261CAE380092D437 /* ImagePickerDemo.swift in Sources */,
 				9A10FCA9261C22E10092D437 /* using_uikit_in_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
