@@ -13,6 +13,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 NavigationLink(destination: ImagePickerDemo()) { Text("ImagePicker") }
+                NavigationLink(destination: FontPickerDemo()) { Text("FontPicker") }
             }
         }
     }
