@@ -14,6 +14,7 @@ struct ContentView: View {
             List {
                 NavigationLink(destination: ImagePickerDemo()) { Text("ImagePicker") }
                 NavigationLink(destination: FontPickerDemo()) { Text("FontPicker") }
+                NavigationLink(destination: SpinnerDemo()) { Text("Spinner") }
             }
         }
     }
