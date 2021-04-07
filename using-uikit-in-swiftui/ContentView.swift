@@ -15,6 +15,8 @@ struct ContentView: View {
                 NavigationLink(destination: ImagePickerDemo()) { Text("ImagePicker") }
                 NavigationLink(destination: FontPickerDemo()) { Text("FontPicker") }
                 NavigationLink(destination: SpinnerDemo()) { Text("Spinner") }
+                NavigationLink(destination: AnyUIViewControllerDemo()) { Text("AnyUIViewController") }
+                NavigationLink(destination: AnyUIViewDemo()) { Text("AnyUIView") }
             }
         }
     }

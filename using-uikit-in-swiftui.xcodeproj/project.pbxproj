@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		9A1003A0261DBF8C0092D437 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10039F261DBF8C0092D437 /* Spinner.swift */; };
 		9A1003A5261DC00E0092D437 /* SpinnerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1003A4261DC00E0092D437 /* SpinnerDemo.swift */; };
+		9A1003AA261DC70A0092D437 /* AnyUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1003A9261DC70A0092D437 /* AnyUIViewController.swift */; };
+		9A1003B2261DC9600092D437 /* AnyUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1003B1261DC9600092D437 /* AnyUIView.swift */; };
+		9A1003B7261DC9E00092D437 /* AnyUIViewControllerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1003B6261DC9E00092D437 /* AnyUIViewControllerDemo.swift */; };
+		9A1003BC261DC9EB0092D437 /* AnyUIViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1003BB261DC9EB0092D437 /* AnyUIViewDemo.swift */; };
 		9A10FCA9261C22E10092D437 /* using_uikit_in_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10FCA8261C22E10092D437 /* using_uikit_in_swiftuiApp.swift */; };
 		9A10FCAB261C22E10092D437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10FCAA261C22E10092D437 /* ContentView.swift */; };
 		9A10FCAD261C22E30092D437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A10FCAC261C22E30092D437 /* Assets.xcassets */; };
@@ -41,6 +45,10 @@
 /* Begin PBXFileReference section */
 		9A10039F261DBF8C0092D437 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		9A1003A4261DC00E0092D437 /* SpinnerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerDemo.swift; sourceTree = "<group>"; };
+		9A1003A9261DC70A0092D437 /* AnyUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUIViewController.swift; sourceTree = "<group>"; };
+		9A1003B1261DC9600092D437 /* AnyUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUIView.swift; sourceTree = "<group>"; };
+		9A1003B6261DC9E00092D437 /* AnyUIViewControllerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUIViewControllerDemo.swift; sourceTree = "<group>"; };
+		9A1003BB261DC9EB0092D437 /* AnyUIViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUIViewDemo.swift; sourceTree = "<group>"; };
 		9A10FCA5261C22E10092D437 /* using-uikit-in-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "using-uikit-in-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A10FCA8261C22E10092D437 /* using_uikit_in_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = using_uikit_in_swiftuiApp.swift; sourceTree = "<group>"; };
 		9A10FCAA261C22E10092D437 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +92,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A1003C0261DC9F60092D437 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9A10FEAD261CAE380092D437 /* ImagePickerDemo.swift */,
+				9A10FEB8261CBABA0092D437 /* FontPickerDemo.swift */,
+				9A1003A4261DC00E0092D437 /* SpinnerDemo.swift */,
+				9A1003B6261DC9E00092D437 /* AnyUIViewControllerDemo.swift */,
+				9A1003BB261DC9EB0092D437 /* AnyUIViewDemo.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		9A10FC9C261C22E10092D437 = {
 			isa = PBXGroup;
 			children = (
@@ -109,9 +129,7 @@
 			children = (
 				9A10FCA8261C22E10092D437 /* using_uikit_in_swiftuiApp.swift */,
 				9A10FCAA261C22E10092D437 /* ContentView.swift */,
-				9A10FEAD261CAE380092D437 /* ImagePickerDemo.swift */,
-				9A10FEB8261CBABA0092D437 /* FontPickerDemo.swift */,
-				9A1003A4261DC00E0092D437 /* SpinnerDemo.swift */,
+				9A1003C0261DC9F60092D437 /* Demo */,
 				9A10FEB2261CB2DA0092D437 /* WrappingUIKit */,
 				9A10FCAC261C22E30092D437 /* Assets.xcassets */,
 				9A10FCB1261C22E30092D437 /* Info.plist */,
@@ -152,6 +170,8 @@
 				9A10FEA5261CADBC0092D437 /* ImagePicker.swift */,
 				9A10FEB3261CBA660092D437 /* FontPicker.swift */,
 				9A10039F261DBF8C0092D437 /* Spinner.swift */,
+				9A1003A9261DC70A0092D437 /* AnyUIViewController.swift */,
+				9A1003B1261DC9600092D437 /* AnyUIView.swift */,
 			);
 			path = WrappingUIKit;
 			sourceTree = "<group>";
@@ -285,12 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A1003B7261DC9E00092D437 /* AnyUIViewControllerDemo.swift in Sources */,
 				9A1003A5261DC00E0092D437 /* SpinnerDemo.swift in Sources */,
 				9A10FEB4261CBA660092D437 /* FontPicker.swift in Sources */,
 				9A10FEA6261CADBC0092D437 /* ImagePicker.swift in Sources */,
+				9A1003BC261DC9EB0092D437 /* AnyUIViewDemo.swift in Sources */,
+				9A1003B2261DC9600092D437 /* AnyUIView.swift in Sources */,
 				9A10FCAB261C22E10092D437 /* ContentView.swift in Sources */,
 				9A1003A0261DBF8C0092D437 /* Spinner.swift in Sources */,
 				9A10FEAE261CAE380092D437 /* ImagePickerDemo.swift in Sources */,
+				9A1003AA261DC70A0092D437 /* AnyUIViewController.swift in Sources */,
 				9A10FCA9261C22E10092D437 /* using_uikit_in_swiftuiApp.swift in Sources */,
 				9A10FEB9261CBABA0092D437 /* FontPickerDemo.swift in Sources */,
 			);

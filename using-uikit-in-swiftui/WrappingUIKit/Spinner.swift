@@ -5,7 +5,6 @@
 //  Created by Guang Lei on 2021/4/7.
 //
 
-import Foundation
 import SwiftUI
 
 struct Spinner: UIViewRepresentable {
